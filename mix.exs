@@ -37,7 +37,7 @@ defmodule HTTPStream.MixProject do
     [
       {:castore, "~> 0.1.7", optional: true},
       {:mint, "~> 1.3.0", optional: true},
-      {:httpoison, "~> 2.2.0", optional: true},
+      {:httpoison, "~> 2.2.0"},
       {:credo, "~> 1.5.0-rc.2", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
